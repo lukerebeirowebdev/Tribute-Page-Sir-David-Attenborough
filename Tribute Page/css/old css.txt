@@ -1,0 +1,128 @@
+body {
+background-color: #e8ffff;
+font-family: 'Hind Madurai', sans-serif;
+font-size: 20px;
+text-align: center;
+color: #213e3b;
+margin: 0;
+}
+
+h1 {
+font-size: 4.8rem;
+margin-bottom: 0;
+font-family: 'Hind Madurai', sans-serif;
+color: #213e3b;
+text-shadow: 2px 2px #000000;
+text-transform: uppercase;
+}
+
+@media (max-width: 460px) {
+h1 {
+font-size: 3.5rem;
+line-height: 1.2;
+}
+}
+
+h2 {
+font-size: 3.25rem;
+}
+
+a {
+color: #477ca7;
+}
+
+a:visited {
+color: #638f70;
+}
+
+#tribute-link {
+font-weight: bold;
+text-decoration: none;
+color: #41aea9 ;
+}
+
+#main {
+margin: 1px 8px;
+padding: 6px;
+border-radius: 20px;
+}
+
+@media (max-width: 460px) {
+#main {
+margin: 0;
+}
+}
+
+img {
+max-width: 100%;
+display: block;
+height: auto;
+margin: 0 auto;
+border-radius: 10px;
+}
+
+#img-div {
+padding: 30px;
+margin: 1rem;
+border-radius: 10px;
+}
+
+#img-caption {
+margin: 20px 0 1px 0;
+font-style: italic;
+font-weight: 800;
+
+}
+
+@media (max-width: 460px) {
+#img-caption {
+font-size: 1.4rem;
+}
+}
+
+#headline {
+margin: 50px 0;
+text-align: center;
+}
+
+ul {
+max-width: 550px;
+margin: 0 auto 50px auto;
+text-align: left;
+line-height: 1.6;
+}
+
+li {
+margin: 16px 0;
+}
+
+.blockquote {
+font-style: italic;
+max-width: 600px;
+margin: 10px 30px;
+padding: 25px;
+background: #f8fffe;
+border: 1px solid #e7e7e7;
+text-align: left;
+color: #41aea9;
+box-sizing: border-box;
+}
+
+.blockquote__text {
+margin: 0;
+line-height: 1.5;
+font-size: 15px;
+font-family: 'Raleway', sans-serif;
+}
+
+.blockquote__text:not(:last-child) .blockquote--bordered {
+border-left-width: 20px;
+font-family: 'Raleway', sans-serif;
+}
+
+.blockquote__text--credit {
+font-weight: bold;
+font-style: normal;
+text-align: right;
+font-family: 'Raleway', sans-serif;
+}
